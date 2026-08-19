@@ -4,9 +4,10 @@
 
 **Разработчик плагинов Minecraft**
 
-![Java](https://img.shields.io/badge/Java-21-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Paper](https://img.shields.io/badge/Paper-1.21.x-0288D1?style=flat-square)
-![Bukkit API](https://img.shields.io/badge/Bukkit-API-62B47A?style=flat-square)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Paper](https://img.shields.io/badge/Paper-0288D1?style=flat-square)
+![Spigot](https://img.shields.io/badge/Spigot-F5A623?style=flat-square)
+![Bukkit API](https://img.shields.io/badge/Bukkit%20API-62B47A?style=flat-square)
 ![Telegram](https://img.shields.io/badge/@marsiago-26A5E4?style=flat-square&logo=telegram&logoColor=white)
 
 Держу и администрирую собственный PvP-сервер, для него же пишу механики.<br>
@@ -55,8 +56,10 @@
 
 ## Что умею
 
-**Плагины** — Paper/Spigot 1.21.x, Java 21. Сборка без Gradle и Maven, напрямую
-через `javac`, когда так быстрее и не нужна сеть.
+**Плагины** — Paper/Spigot, Bukkit API. Всё отгруженное сейчас работает на
+1.21.x под Java 21; под другую версию ядра собирается так же, с поправкой на
+изменения API. Сборка без Gradle и Maven, напрямую через `javac`, когда так
+быстрее и не нужна сеть.
 
 **Интеграция с закрытыми плагинами** — когда у соседа нет ни API, ни событий,
 нужный метод ищется по jar-у через `javap` и вызывается рефлексией, а события
